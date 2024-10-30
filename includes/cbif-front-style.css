@@ -1,0 +1,141 @@
+/*=======================front style start======================*/
+
+/*=======================LIST MODE CSS START======================*/
+.instagram-feed-list-view li {
+    box-shadow: 0 1px 2px 0 #d9d9d9;
+    display: inline-block;
+    margin: 0 0 14px !important;
+    padding: 5px 0;
+    width: 100%;
+}
+
+
+.instagram-feed-list-view li .inst-img_box {
+    float: left;
+    height: auto;
+    margin-right: 15px;
+    width: 30%;
+}
+
+.instagram-feed-list-view li .inst-img_box img {
+    height:134px;
+    width: 100%;
+}
+
+.instagram-feed-list-view .contant_box1 {
+    font-family: arial;
+    font-size: 13px;
+}
+
+.instagram-feed-list-view li .instagram_single_box {
+    padding: 0 5px;
+}
+
+.instagram_single_box .inst-img_box a img{
+	box-shadow:none;
+}
+
+
+
+.instagram-feed-list-view li .instagram_single_box .inst-content {
+    float: left;
+    margin-left: 15px;
+    width: 65%;
+}
+
+.instagram-feed-list-view li .instagram_single_box .inst-title {
+    font-size: 13px;
+}
+
+/*=======================LIST MODE CSS END======================*/
+
+/*=======================GRID CSS START======================*/
+.col-main > ul#grid_instagram_feed {
+    margin:25px auto 0;
+    max-width: 1167px;
+    min-height: 960px;
+	position:relative;
+    
+    overflow-y: auto;
+}
+
+#grid_instagram_feed .instagram_single_box {
+    display: inline-block;
+    padding:2px 2px 10px;
+    width: 100%;
+}
+
+#grid_instagram_feed li {
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px 0 #d9d9d9;
+    display: inline-block;
+    margin: 0 8px 25px 0;
+    max-width: 171px;
+    vertical-align: top;
+    width: 171px;
+}
+/*#grid_instagram_feed li:nth-child(4){margin-right:0;}*/
+.flickr_single_box {
+    /*border: 1px solid #ccc;*/
+}
+#grid_instagram_feed li .inst-img_box img {
+    width: 100%;
+	height:159px;
+}
+
+#grid_instagram_feed .inst-content .inst-title {
+    font-size: 13px;
+}
+#grid_instagram_feed .instagram_single_box .inst-img_box a {
+    display: inline-block;
+    margin-bottom: 5px;
+	width:100%;
+}
+
+.instagram-feed-grid-view {
+    position: relative;
+}
+
+.instagram-feed-grid-view {
+    display: block;
+    height: 730px;
+    min-height: 100%;
+    overflow: scroll;
+    position: relative;
+	padding:0px;
+}
+
+
+.instagram-feed-grid-view .inst-img_box {
+    width: 100%;
+}
+
+.instagram-feed-grid-view .inst-content {
+    min-height: 40px;
+    padding: 0 7px;
+}
+
+.main-instagram-feeds-div {
+    max-width: 570px;
+}
+
+
+.instagram-feed-list-view {
+    padding: 0;
+}
+
+.main-instagram-feeds-div h1 {
+    border-bottom: 1px solid #d1d1d1;
+    color: #000;
+    font-size: 20px;
+    padding-bottom: 11px;
+}
+
+
+.err-msg span.msg-details {
+    color: red;
+	font-weight:700;
+}
+
+/*=======================GRID CSS END======================*/
+/*=======================front style end======================*/
